@@ -1,0 +1,117 @@
+.pag-web {
+    display: flex;
+}
+.menu-lateral {
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    width: 20%;
+    height: 100vh;
+}
+.maria {
+    display: flex;
+    height: 9vh;
+    justify-content: space-around;
+    align-items: center;
+    padding: 2px;
+    border: 1px solid #bec1bb;    
+}
+.maria:hover{
+    background-color: #cdc3e6;
+}
+.humano {
+    display: flex;
+    height: 9vh;
+    justify-content: spa;
+    align-items: center;   
+    border: 1px solid #bec1bb;    
+}
+.humano:hover{
+    background-color: #cdc3e6;
+}
+.descripcion {
+    display: flex;
+    align-items: center;
+}
+.descripcion img{
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    margin-right: 10px;
+    margin-left: 30px;
+}
+.descripcion h3{
+    font-size: 14px;
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    margin: 3px;
+    color: #828485;
+}
+.descripcion h4{
+    font-size: 10px;
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    margin: 3px;
+    color: #828485
+}
+.iconos i{
+    margin: 7px;
+    color: #bec1bb;
+}
+.boton{
+    display: flex;
+    height: 18vh;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #bec1bb;
+    text-decoration: none;
+    color: #a491d2;
+}
+.boton button{
+    border: none;
+    border-radius: 5%;
+    margin: 30px;
+    background-color: #a491d2;
+    width: 150px;
+    height: 40px;    
+    color: #fff
+
+}
+.boton button:hover{
+    background-color: #cdc3e6;
+}
+
+
+.sala-espera {
+    display: flex;
+    width: 80%;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-family: roboto bold;
+    background-color: #e8ebe4;
+}
+.iconos-der h1{
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 45px;
+    color: #828485;
+}
+.iconos-der p{
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 16px;
+    color: #828485;
+}
+
+.iconos-der img{
+    width: 250px;
+    height: 250px;
+    border-radius: 15px;
+}
+.iconos-der img:hover{
+    background-color: #cdc3e6;
+}
