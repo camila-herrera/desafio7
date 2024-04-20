@@ -1,7 +1,7 @@
 .pag-web {
     display: flex;
 }
-.menu-lateral {
+.contactos{
     display: flex;
     flex-direction: column;
     background-color: #fff;
@@ -82,7 +82,7 @@
 }
 
 
-.sala-espera {
+.seccion-principal {
     display: flex;
     width: 80%;
     height: 100vh;
